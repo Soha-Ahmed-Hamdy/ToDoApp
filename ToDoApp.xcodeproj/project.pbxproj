@@ -17,6 +17,12 @@
 		CF5267F229DF5A4600E2CF8A /* ToDoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5267F129DF5A4600E2CF8A /* ToDoAppTests.m */; };
 		CF5267FC29DF5A4600E2CF8A /* ToDoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5267FB29DF5A4600E2CF8A /* ToDoAppUITests.m */; };
 		CF5267FE29DF5A4600E2CF8A /* ToDoAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5267FD29DF5A4600E2CF8A /* ToDoAppUITestsLaunchTests.m */; };
+		CF85E7D629EC8EA400C0F1E4 /* ProDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF85E7D529EC8EA400C0F1E4 /* ProDetailsViewController.m */; };
+		CF889C6829E061420075AF06 /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF889C6729E061420075AF06 /* ProgressViewController.m */; };
+		CF889C6B29E061590075AF06 /* DoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF889C6A29E061590075AF06 /* DoneViewController.m */; };
+		CF889C6E29E0A62F0075AF06 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF889C6D29E0A62F0075AF06 /* EditViewController.m */; };
+		CF889C7129E0A6440075AF06 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF889C7029E0A6440075AF06 /* AddViewController.m */; };
+		CF889C7429E0C0CF0075AF06 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = CF889C7329E0C0CF0075AF06 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,18 @@
 		CF5267F729DF5A4600E2CF8A /* ToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF5267FB29DF5A4600E2CF8A /* ToDoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoAppUITests.m; sourceTree = "<group>"; };
 		CF5267FD29DF5A4600E2CF8A /* ToDoAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CF85E7D429EC8EA400C0F1E4 /* ProDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProDetailsViewController.h; sourceTree = "<group>"; };
+		CF85E7D529EC8EA400C0F1E4 /* ProDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProDetailsViewController.m; sourceTree = "<group>"; };
+		CF889C6629E061420075AF06 /* ProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		CF889C6729E061420075AF06 /* ProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		CF889C6929E061590075AF06 /* DoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneViewController.h; sourceTree = "<group>"; };
+		CF889C6A29E061590075AF06 /* DoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneViewController.m; sourceTree = "<group>"; };
+		CF889C6C29E0A62F0075AF06 /* EditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		CF889C6D29E0A62F0075AF06 /* EditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		CF889C6F29E0A6440075AF06 /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		CF889C7029E0A6440075AF06 /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		CF889C7229E0C0CF0075AF06 /* Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		CF889C7329E0C0CF0075AF06 /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +133,18 @@
 				CF5267E329DF5A4500E2CF8A /* LaunchScreen.storyboard */,
 				CF5267E629DF5A4500E2CF8A /* Info.plist */,
 				CF5267E729DF5A4500E2CF8A /* main.m */,
+				CF889C6629E061420075AF06 /* ProgressViewController.h */,
+				CF889C6729E061420075AF06 /* ProgressViewController.m */,
+				CF889C6929E061590075AF06 /* DoneViewController.h */,
+				CF889C6A29E061590075AF06 /* DoneViewController.m */,
+				CF889C6C29E0A62F0075AF06 /* EditViewController.h */,
+				CF889C6D29E0A62F0075AF06 /* EditViewController.m */,
+				CF889C6F29E0A6440075AF06 /* AddViewController.h */,
+				CF889C7029E0A6440075AF06 /* AddViewController.m */,
+				CF889C7229E0C0CF0075AF06 /* Task.h */,
+				CF889C7329E0C0CF0075AF06 /* Task.m */,
+				CF85E7D429EC8EA400C0F1E4 /* ProDetailsViewController.h */,
+				CF85E7D529EC8EA400C0F1E4 /* ProDetailsViewController.m */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -266,9 +296,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF889C6B29E061590075AF06 /* DoneViewController.m in Sources */,
+				CF889C6829E061420075AF06 /* ProgressViewController.m in Sources */,
 				CF5267DD29DF5A4400E2CF8A /* ViewController.m in Sources */,
+				CF85E7D629EC8EA400C0F1E4 /* ProDetailsViewController.m in Sources */,
+				CF889C6E29E0A62F0075AF06 /* EditViewController.m in Sources */,
 				CF5267D729DF5A4400E2CF8A /* AppDelegate.m in Sources */,
 				CF5267E829DF5A4500E2CF8A /* main.m in Sources */,
+				CF889C7129E0A6440075AF06 /* AddViewController.m in Sources */,
+				CF889C7429E0C0CF0075AF06 /* Task.m in Sources */,
 				CF5267DA29DF5A4400E2CF8A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
